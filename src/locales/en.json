@@ -212,6 +212,7 @@
     "email": "Email",
     "hours": "Business Hours",
     "hoursValue": "Monday - Friday: 8am - 6pm<br/>Saturday: 9am - 4pm<br/>Sunday: Closed",
+    "address": "315 Bd René-Lévesque E, Montréal, QC H2X 3P3 bureau 1605",
     "serviceArea": "Service Area",
     "serviceAreaValue": "Montreal, Laval, North Shore and South Shore",
     "form": {

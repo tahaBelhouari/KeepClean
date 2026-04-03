@@ -212,6 +212,7 @@
     "email": "Courriel",
     "hours": "Heures d'Ouverture",
     "hoursValue": "Lundi - Vendredi: 8h - 18h<br/>Samedi: 9h - 16h<br/>Dimanche: Fermé",
+    "address": "315 Bd René-Lévesque E, Montréal, QC H2X 3P3 bureau 1605",
     "serviceArea": "Zone de Service",
     "serviceAreaValue": "Montréal, Laval, Rive-Nord et Rive-Sud",
     "form": {
