@@ -31,7 +31,7 @@
     "title": "Votre expert en nettoyage résidentiel et commercial",
     "subtitle": "Partout à Montréal, Laval, Rive-Nord et Rive-Sud",
     "cta": "Demander un Devis",
-    "ctaSecondary": "Nos Services"
+    "ctaSecondary": "Nos services"
   },
   "services": {
     "title": "Nos services",
@@ -90,12 +90,16 @@
     },
     "staffing": {
       "title": "Personnel d’entretien dédié",
-      "description": "Besoin de personnel de nettoyage expérimenté? Nous fournissons des professionnels formés et fiables pour combler vos postes.",
+      "description": "Vous recherchez du personnel de nettoyage fiable pour votre entreprise ?\nMr Clean+ vous propose une solution flexible et professionnelle en mettant à votre disposition des agents qualifiés, adaptés à vos besoins opérationnels.\n\nNous collaborons avec des entreprises, commerces et institutions pour assurer une continuité de service optimale, que ce soit pour combler un manque de personnel, soutenir une équipe existante ou externaliser complètement l’entretien.",
       "features": [
-        "Professionnels formés",
-        "Temporaire ou permanent",
-        "Placement rapide",
-        "Garantie de qualité"
+        "Professionnels formés, expérimentés et supervisés",
+        "Placement temporaire ou permanent selon vos besoins",
+        "Intervention rapide en cas d’urgence ou d’absence",
+        "Remplacement garanti (maladie, congé, imprévu)",
+        "Possibilité d’intégration à votre équipe existante",
+        "Sous-traitance complète de vos services d’entretien",
+        "Personnel dédié assigné à votre établissement",
+        "Suivi de qualité et service personnalisé"
       ]
     },
     "moveRenovation": {
@@ -158,7 +162,6 @@
       {
         "name": "Jean Charbonneau",
         "stars": 4,
-        "starsEmpty": 1,
         "starsEmpty": 1,
         "text": "Bonne qualité-prix. Ben content d'être passé à vous pour le ménage du bureau. C'est toujours propre.",
         "service": "Nettoyage Commercial"

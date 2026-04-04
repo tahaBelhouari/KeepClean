@@ -21,6 +21,9 @@ type Dictionary = {
     privacy: string;
     terms: string;
   };
+  contact: {
+    address: string;
+  };
 };
 
 export default function Footer({ lang, dict }: { lang: Locale; dict: Dictionary }) {
@@ -47,7 +50,7 @@ export default function Footer({ lang, dict }: { lang: Locale; dict: Dictionary 
               </div>
               <div className="mc-footer-contact-item">
                 <FaMapMarkerAlt className="mc-footer-icon" />
-                <span>{dict.contact?.address || "315 Bd René-Lévesque E, Montréal, QC H2X 3P3, Bureau 1605"}</span>
+                <span>{dict.contact.address}</span>
               </div>
             </div>
           </div>
@@ -102,10 +105,10 @@ export default function Footer({ lang, dict }: { lang: Locale; dict: Dictionary 
         <div className="mc-footer-bottom">
           <p className="mc-footer-rights">{dict.footer.rights}</p>
           <div className="mc-footer-legal-links">
-            <Link href="#" className="mc-footer-link mc-footer-link-small">
+            <Link href={`/${lang}/privacy-policy`} className="mc-footer-link mc-footer-link-small">
               {dict.footer.privacy}
             </Link>
-            <Link href="#" className="mc-footer-link mc-footer-link-small">
+            <Link href={`/${lang}/terms`} className="mc-footer-link mc-footer-link-small">
               {dict.footer.terms}
             </Link>
           </div>
