@@ -50,6 +50,7 @@ const PrivacyPolicyPage = async ({ params }: Props) => {
   const policy = dict.privacyPolicy as {
     title: string;
     lastUpdated: string;
+    intro: string;
     summaryTitle: string;
     summaryText: string;
     summaryList: string[];
